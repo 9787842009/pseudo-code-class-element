@@ -1,0 +1,40 @@
+a{
+    font-size: medium;
+}
+
+a:link{
+    color: blue;
+}
+
+.link_1 a{
+    color: black;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: chartreuse;
+}
+
+a:link, a:visited{
+    background-color: black;
+    color: aquamarine;
+    padding: 20px,50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    background-color: chocolate;
+}
+
+a:active{
+    background-color: darkmagenta;
+}
